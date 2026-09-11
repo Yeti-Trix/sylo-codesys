@@ -1,0 +1,45 @@
+{
+  "name": "sylo-codesys",
+  "version": "0.1.0",
+  "description": "Drive a live, open CODESYS V3.5 project from chat via the codesys-mcp-sp21-plus MCP server, bridged through pi-mcp-adapter. Skill + setup/diagnostic tool. No host MCP client.",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ],
+    "skills": [
+      "./skills/codesys"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.84.2"
+  },
+  "dependencies": {
+    "typebox": "^1.1.24"
+  },
+  "license": "MIT",
+  "gitHead": "f05700bce9bf8ef8574894f24a8a3fa71da11d61",
+  "dist": {
+    "integrity": "sha512-omhxtmOKvGc0abQCJcMPQb9+fyEyKRO8ymZOauKk7cM2H8SufVPeINGX49H/6UdpZlu13j7a5fQrhjV5pmT+Vg==",
+    "shasum": "9b7fb591a3b51cefda2cb638db64f60f7fbadde4",
+    "tarball": "https://registry.npmjs.org/sylo-codesys/-/sylo-codesys-0.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 32571,
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQC1PkMGhx+UrEHeBq26XSStd2/buAFDr0wKu1AX9SDHAwIgXTuKJ4LTbBuDZDXEwAzizBBugHpF5CZ+sCNMMfaqfns="
+      }
+    ]
+  },
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "yeti-trix",
+      "email": "spencer.current@gmail.com"
+    }
+  ]
+}
