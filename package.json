@@ -1,6 +1,6 @@
 {
   "name": "sylo-codesys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Drive a live, open CODESYS V3.5 project from chat via the codesys-mcp-sp21-plus MCP server, bridged through pi-mcp-adapter. Skill + setup/diagnostic tool. No host MCP client.",
   "type": "module",
   "keywords": [
