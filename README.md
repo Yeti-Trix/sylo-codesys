@@ -88,3 +88,10 @@ open .project           (live; operator watches changes in the IDE)
 - MCP-server compatibility & docs: see the
   [codesys-mcp-sp21-plus README](https://github.com/phobicdotno/Codesys-MCP-SP21-plus#readme)
   and [ARCHITECTURE.md](https://github.com/phobicdotno/Codesys-MCP-SP21-plus/blob/main/ARCHITECTURE.md).
+
+
+## Install
+
+`pi install npm:sylo-codesys` — or from the **Capability manager → Pi.dev package catalog** in Sylo (it appears in the Sylo packages strip).
+
+Releases publish automatically from GitHub Actions (npm trusted publishing, with provenance): bump `version` in `package.json`, commit, tag `vX.Y.Z`, push the tag.
